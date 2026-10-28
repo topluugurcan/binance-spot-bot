@@ -3,6 +3,9 @@ name: Binance Spot Signal Bot
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   run-signal-bot:
     runs-on: ubuntu-latest
